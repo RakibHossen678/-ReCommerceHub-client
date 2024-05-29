@@ -1,4 +1,4 @@
-import { Button, List, Navbar } from "flowbite-react";
+import { Button,  Navbar } from "flowbite-react";
 import logo from "../../assets/logo.png";
 import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
@@ -14,7 +14,6 @@ const NavBar = () => {
       </Navbar.Brand>
       <div className="flex lg:space-x-4 md:order-2">
         <Button className="">Login</Button>
-        <Button className="">Register</Button>
         <Navbar.Toggle />
       </div>
       <div className="">
